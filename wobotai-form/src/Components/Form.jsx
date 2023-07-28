@@ -49,7 +49,7 @@ const Form = () => {
                 
                 <div className='Box-number'>1-20</div>
                 <div className='Box-number'>21-50</div>
-                <div className='Box-number'>51-200</div>
+                <div className='Box-number_blue'>51-200</div>
                 <div className='Box-number'>201-500</div>
                 <div className='Box-number'>500+</div>
             </div>

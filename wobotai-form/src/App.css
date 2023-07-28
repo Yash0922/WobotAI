@@ -174,8 +174,15 @@ form{
 .Box-number{
   padding: 5px 8px 5px 8px;
   background-color: #f0f0f0;
-  line-height: 17.41px;
+
   color: #545454;
+  font-family: "Inter",sans-serif;
+}
+.Box-number_blue{
+  padding: 5px 8px 5px 8px;
+  background-color: #3766e8;
+
+  color: white;
   font-family: "Inter",sans-serif;
 }
 #submit{
@@ -216,4 +223,34 @@ form{
 .App-link {
   color: #61dafb;
 }
+@media screen and (max-width: 500px) {
+  /* Add the styles you want to apply for screen width less than 500px here */
+  /* For example, you can change the width of the form or adjust the margins */
+  .main-card {
+    width: 85%;
+    left: 5%;
+  }
+  .Box-number_blue {
+    font-size: 12px; /* Adjust the font size as needed */
+  }
+  .Box-number_blue {
+    font-size: 12px; /* Adjust the font size as needed */
+  }
+ 
+}
+@media screen and (max-width: 900px) {
+  /* Add the styles you want to apply for screen width less than 820px here */
+  /* For example, you can change the width of the form or adjust the margins */
+  .main-card {
+    width: 75%;
+    left: 15%;
+  }
 
+  /* Adjust the font size of box-number class */
+  .Box-number {
+    font-size: 12px; /* Adjust the font size as needed */
+  }
+  .Box-number_blue {
+    font-size: 12px; /* Adjust the font size as needed */
+  }
+}
