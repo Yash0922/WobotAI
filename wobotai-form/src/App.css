@@ -1,0 +1,219 @@
+.App {
+
+  background-color: #f9f9f9;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.box-rotate-fixed .box-strip-bottom-left {
+  left: 0;
+  width: 100%;
+  max-width: 44%;
+  border-top: 8px solid #e0e8fc;
+}
+.WebsiteLogoLogo{
+  position: absolute;
+  z-index: 1;
+  max-width: 200px;
+  left:5%;
+  top:25px
+}
+.main-card{
+  margin: auto;
+  width: 40%;
+ position: absolute;
+ z-index: 2;
+ top: 5%;
+ left: 27%;
+ background-color: white;
+
+  border-radius: 15px;
+  box-shadow: 6px 6px 30px hsla(0,0%,61.6%,.11);
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
+}
+.Form-content{
+    text-align: center;
+}
+.Form-content h3{
+    padding-top: 20px;
+    
+    font-size: 26px;
+    width: 60%;
+    font-weight: 500;
+    color: #343434;
+    margin: auto;
+
+}
+.Form-content p{
+
+  font-weight: 500;
+  color: #464646;
+}
+#paragraph{
+  width: 67%;
+    text-align: center;
+    margin: auto;
+}
+.YourName{
+  display: flex;
+  flex-direction: column;
+  padding: 25px 25px 10px 25px;
+}
+.CompanyName{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 25px 10px 25px;
+}
+.Industry{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 25px 10px 25px;
+ 
+}
+.YourName input{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.41px;
+  border-radius: 6px;
+  height: 37px;
+  border: 1px solid #ced4da;
+  box-shadow: 0 0 0 1px transparent;
+  padding: 2px 2px 2px 8px;
+}
+.CompanyName input{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.41px;
+  border-radius: 6px;
+  height: 37px;
+  border: 1px solid #ced4da;
+  box-shadow: 0 0 0 1px transparent;
+  padding: 2px 2px 2px 8px;
+}
+.Industry select{
+  font-size: 14px;
+    font-weight: 400;
+    line-height: 17.41px;
+    border-radius: 6px;
+    height: 37px;
+    color: #4a4b4d;
+    border: 1px solid #ced4da;
+    box-shadow: 0 0 0 1px transparent;
+    padding: 2px 2px 2px 8px;
+}
+form{
+  width: 82%;
+  margin: auto;
+}
+.YourNameLabel{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.41px;
+  color: #545454;
+  font-family: "Inter",sans-serif;
+  margin: 3px 0px 3px 0px;
+}
+.CompanyNameLabel{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.41px;
+  color: #545454;
+  font-family: "Inter",sans-serif;
+  margin: 3px 0px 3px 0px;
+}
+.IndustryLabel{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.41px;
+  color: #545454;
+  font-family: "Inter",sans-serif;
+  margin: 3px 0px 3px 0px;
+}
+.box-rotate-fixed {
+  position: absolute;
+  height: 420px;
+  left: 0;
+  right: 0;
+  top: 16%;
+  bottom: 0;
+  z-index: 1;
+  -webkit-transform: skewY(-30deg);
+  transform: skewY(-30deg);
+}
+.box-rotate-fixed .box-strip {
+  position: absolute;
+  height: 400px;
+
+  background-color: #f5f5f5;
+}
+.NumberOfLocation{
+  display: flex;
+  margin: auto;
+  gap: 10px;
+  margin-left: 25px;
+}
+.NumberLocation{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.41px;
+  color: #545454;
+  font-family: "Inter",sans-serif;
+  margin-left: 25px;
+}
+.Box-number{
+  padding: 5px 8px 5px 8px;
+  background-color: #f0f0f0;
+  line-height: 17.41px;
+  color: #545454;
+  font-family: "Inter",sans-serif;
+}
+#submit{
+  margin-top: 25px;
+  width: 91%;
+  margin-left: 25px;
+  padding: 13px 0px 13px 0px;
+  border: none;
+  background-color: #3766e8;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.box-rotate-fixed .box-strip {
+  position: absolute;
+  height: 400px;
+  background-color: #f5f5f5;
+}
+.box-rotate-fixed .box-strip-top-right {
+  right: 0;
+  width: 100%;
+  max-width: 44%;
+  border-bottom: 8px solid #e0e8fc;
+}
+.box-rotate-fixed .box-strip {
+  position: absolute;
+  height: 400px;
+  background-color: #f5f5f5;
+}
+.box-rotate-fixed .box-strip-bottom-left {
+  left: 0;
+  width: 100%;
+  max-width: 44%;
+  border-top: 8px solid #e0e8fc;
+}
+.App-link {
+  color: #61dafb;
+}
+
