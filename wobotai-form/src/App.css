@@ -90,6 +90,7 @@
   border: 1px solid #ced4da;
   box-shadow: 0 0 0 1px transparent;
   padding: 2px 2px 2px 8px;
+  outline: none;
 }
 .CompanyName input{
   font-size: 14px;
@@ -100,6 +101,7 @@
   border: 1px solid #ced4da;
   box-shadow: 0 0 0 1px transparent;
   padding: 2px 2px 2px 8px;
+  outline: none;
 }
 .Industry select{
   font-size: 14px;
@@ -107,6 +109,7 @@
     line-height: 17.41px;
     border-radius: 6px;
     height: 37px;
+    outline: none;
     color: #4a4b4d;
     border: 1px solid #ced4da;
     box-shadow: 0 0 0 1px transparent;

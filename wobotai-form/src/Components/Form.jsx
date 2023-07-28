@@ -28,18 +28,18 @@ const Form = () => {
                     <p id='paragraph'>(This is how we Optimize Wobot as per your business needs )</p>
                 </div>
                 
-    <form>
+    <form onSubmit={handleSubmit}>
         
             <div className='YourName'>
                 <label className='YourNameLabel'>Your Name</label>
-                <input type="text" placeholder='e.g Jhon Smith' />
+                <input type="text" placeholder='e.g Jhon Smith'  onChange={(e) => setName(e.target.value)}/>
             </div>
             <div className="CompanyName">
             <label className='CompanyNameLabel'>Company name</label>
-                <input type="text" placeholder='e.g Alph Inc' />
+                <input type="text" placeholder='e.g Alph Inc'  onChange={(e) => setCompanyName(e.target.value)}/>
             </div>
             <div className="Industry">
-            <label className='IndustryLabel'>Industry</label>
+            <label className='IndustryLabel' onChange={(e) => setIndustry(e.target.value)}>Industry</label>
                 <select name="" >
                     <option value="Select">Select</option>
                 </select>
